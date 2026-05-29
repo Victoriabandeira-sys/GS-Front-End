@@ -73,7 +73,7 @@ a:hover {
     padding: 100px;
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/image-problema.jpg);
+    url(../img/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 21_01_13.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -131,8 +131,8 @@ a:hover {
 
 
 .tecnologia{
-    background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/image-tecnologia.png);
+    background-image: linear-gradient( rgba(23, 22, 22, 0.8),rgba(34, 33, 33, 0.4)),
+    url(../img/Digital\ technology\ network\ data\ and\ communication\ concept\ abstract\ background_\ earth\ element\ furnished\ by\ nasa\ _\ Premium\ Photo.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
@@ -198,11 +198,13 @@ a:hover {
 
 .objetivos{
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/Image-objetivos.jpg);
+    url(../img/2025\ OECD\ Business\ Assembly_\ Boosting\ Economic\ Cooperation.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
     display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -263,7 +265,7 @@ a:hover {
 
 .publico{
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/image-publico.png);
+    url(../img/image-problema.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
@@ -329,4 +331,103 @@ a:hover {
     font-size: 16px;
     line-height: 1.6;
     color: var(--color-light);
+}
+
+.beneficios{
+    padding: 100px;
+    height: 100vh;
+    background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
+    url(../img/90\ Fresh\ Space\ Wallpapers\ Reddit\ Combination.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    color: var(--color-light);
+    padding-inline: var(--spacing-md);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-beneficios {
+    text-align: center;
+    max-width: 700px;
+}
+
+.header-beneficios h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.header-beneficios p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.cards-beneficios {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(28, 27, 34, 0.4);
+    border-radius: 18px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.cards-beneficios:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-light);
+    box-shadow: 0 0 20px rgba(134, 121, 121, 0.25);
+}
+
+.cards-beneficios h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.cards-beneficios p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #c6c1c1;
+}
+
+.aplicacao{
+    padding: 100px;
+    height: 100vh;
+    background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
+    url(../img/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 21_01_13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    color: var(--color-light);
+    padding-inline: var(--spacing-md);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.header-aplicacao {
+    text-align: center;
+    max-width: 700px;
+}
+
+.cards-aplicacao {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(28, 27, 34, 0.4);
+    border-radius: 18px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.cards-aplicacao:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-light);
+    box-shadow: 0 0 20px rgba(134, 121, 121, 0.25);
 }
