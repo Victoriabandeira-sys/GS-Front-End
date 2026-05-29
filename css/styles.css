@@ -9,6 +9,8 @@
     --color-light: #ffffff;
     --color-blue-dark: #000000;
     --color-grey:#8f8d8d66; 
+    --color-blue: #072137e8;
+    --color-purpple: rgb(66, 66, 129);
     --spacing-sm:10px;
     --spacing-md: 20px;
     --spacing-lg: 30px;
@@ -68,12 +70,11 @@ a:hover {
     gap: var(--spacing-lg);
 }
 
-
 .problema{
     padding: 100px;
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 21_01_13.png);
+    url(../img/2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -132,7 +133,7 @@ a:hover {
 
 .tecnologia{
     background-image: linear-gradient( rgba(23, 22, 22, 0.8),rgba(34, 33, 33, 0.4)),
-    url(../img/Digital\ technology\ network\ data\ and\ communication\ concept\ abstract\ background_\ earth\ element\ furnished\ by\ nasa\ _\ Premium\ Photo.jpg);
+    url(../img/3.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
@@ -198,7 +199,7 @@ a:hover {
 
 .objetivos{
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/2025\ OECD\ Business\ Assembly_\ Boosting\ Economic\ Cooperation.jpg);
+    url(../img/4.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
@@ -337,7 +338,7 @@ a:hover {
     padding: 100px;
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/90\ Fresh\ Space\ Wallpapers\ Reddit\ Combination.jpg);
+    url(../img/6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -397,7 +398,7 @@ a:hover {
     padding: 100px;
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 21_01_13.png);
+    url(../img/2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -430,4 +431,35 @@ a:hover {
     transform: translateY(-8px);
     border-color: var(--color-light);
     box-shadow: 0 0 20px rgba(134, 121, 121, 0.25);
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.topo a{
+    text-align: center;
+    border-radius: 80px;
+    transition: .5s;
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid var(--color-purpple);
+    background-color: var(--color-purpple);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    color: var(--color-light);
+}
+
+.topo a:hover{
+    background-color: transparent;
+    color: var(--color-purpple);
+}
+
+.rodape p {
+    padding: 30px;
+    text-align: center;
+    background-color: var(--color-blue);
+    color: var(--color-light);
 }
