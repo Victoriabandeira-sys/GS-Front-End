@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 :root {
@@ -34,10 +34,16 @@ a:hover {
     color: var(--color-grey);
 }
 
+.imagem {
+    width: 350px;
+    border-radius: 50px;
+    margin-top: -172px;
+}
+
 .capa {
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/image-capa.jpg);
+    url(../img/img-capa.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 50%;
@@ -49,7 +55,8 @@ a:hover {
 .nav-capa{
     height: 20%;
     padding: 10px;
-    margin: 50px;
+    margin: 400px;
+
 }
 .header-capa {
     padding: 30px;
@@ -60,9 +67,25 @@ a:hover {
     justify-content: space-between;
 }
 
-.header-capa h2 {
-    text-align: center;
-    margin-top: 50%;
+.hero-texto{
+    margin-top: 110px;
+    max-width: 700px;
+    text-align: left;
+    color: white;
+    margin-left: 600px;
+}
+
+.hero-texto h2{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.hero-texto p{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .menu-capa{
@@ -74,7 +97,7 @@ a:hover {
     padding: 100px;
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/2.png);
+    url(../img/img-2.7.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -133,7 +156,7 @@ a:hover {
 
 .tecnologia{
     background-image: linear-gradient( rgba(23, 22, 22, 0.8),rgba(34, 33, 33, 0.4)),
-    url(../img/3.jpg);
+    url(../img/img-tecnologia.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
@@ -199,7 +222,7 @@ a:hover {
 
 .objetivos{
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/4.jpg);
+    url(../img/img-objetivos.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
@@ -266,7 +289,7 @@ a:hover {
 
 .publico{
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/image-problema.jpg);
+    url(../img/img-publico.jpg);
     min-height: 100vh;
     padding: 100px var(--spacing-md);
     color: var(--color-light);
@@ -338,7 +361,7 @@ a:hover {
     padding: 100px;
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/6.jpg);
+    url(../img/img-beneficios.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -398,7 +421,7 @@ a:hover {
     padding: 100px;
     height: 100vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
-    url(../img/2.png);
+    url(../img/img-2.7.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -448,7 +471,7 @@ a:hover {
     margin-top: 30px;
     border: 2px solid var(--color-purpple);
     background-color: var(--color-purpple);
-    padding: var(--spacing-sm) var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-md);
     color: var(--color-light);
 }
 
@@ -456,6 +479,25 @@ a:hover {
     background-color: transparent;
     color: var(--color-purpple);
 }
+
+.icon {
+    margin-left: 6px;
+    animation: foguete 2s infinite linear;
+}
+
+/* animação para o foguete ícone */
+@keyframes foguete {
+    0%,
+    100% {
+        transform: translateY(0);
+        scale: 1;
+    }
+    50% {
+        transform: translateY(10px);
+        scale: 1;
+    }
+}
+
 
 .rodape p {
     padding: 30px;
