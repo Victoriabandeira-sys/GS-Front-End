@@ -11,6 +11,7 @@
     --color-grey:#8f8d8d66; 
     --color-blue: #072137e8;
     --color-purpple: rgb(66, 66, 129);
+    --color-card: #6ea3f1;
     --spacing-sm:10px;
     --spacing-md: 20px;
     --spacing-lg: 30px;
@@ -37,7 +38,7 @@ a:hover {
 .imagem {
     width: 350px;
     border-radius: 50px;
-    margin-top: -172px;
+    margin-top: -195px;
     display: block;
     position: absolute;
     left: 0;
@@ -116,7 +117,7 @@ a:hover {
 
 .header-problema{
     text-align: center;
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
 }
 
@@ -134,7 +135,7 @@ a:hover {
 .container-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.08); 
     border: 1px solid rgba(28, 27, 34, 0.4); 
@@ -145,7 +146,8 @@ a:hover {
 .cards-problema {
     width: 150px;
     padding: 20px;
-    color: rgb(114, 114, 230);
+    color: var(--color-card);
+    text-align: center;
 }
 
 .cards-problema:hover {
@@ -159,8 +161,8 @@ a:hover {
 .texto-problema{
     font-size: 18px;
     line-height: 1.7;
-    text-align: center;
-    max-width: 1000px;
+    text-align: justify;
+    max-width: 1100px;
     width: 100%;
 }
 
@@ -198,20 +200,26 @@ a:hover {
     line-height: 1.6;
 }
 
-.cards-tecnologia{
+.cards-tecnologia {
     width: 100%;
     max-width: 1100px;
     display: grid;
     grid-template-columns: 1fr 1fr;   
     gap: 25px;
+    text-align: justify;
 }
 
-.card-tecnologia{
+.card-tecnologia {
     background-color: rgba(124, 105, 105, 0.08);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 30px;
     transition: 0.3s;
+}
+
+.icone-card {
+    width: 28px;
+    height: 28px;
 }
 
 .card-tecnologia:hover{
@@ -226,7 +234,7 @@ a:hover {
 }
 
 .card-tecnologia p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
     color: var(--color-light);
 }
@@ -253,14 +261,15 @@ a:hover {
 }
 
 .header-objetivos h2{
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
 .header-objetivos p{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.6;
     color: var(--color-light);
+    text-align: justify;
 }
 
 .container-objetivos{
@@ -443,9 +452,32 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
+.container-aplicacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 350px;
+}
+
+
+.cards-aplicacao {
+    width: 150px;
+    padding: 20px;
+    color: var(--color-card);
+    text-align: center;
+}
+
+.cards-aplicacao:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-light);
+    box-shadow: 0 0 0px rgba(134, 121, 121, 0.25);
+    transition: 0.3s;
+}
 
 .header-aplicacao {
     font-size: 50px;
@@ -453,27 +485,52 @@ a:hover {
     max-width: 700px;
 }
 
-.cards-aplicacao {
-    font-size: 20px;
-    width: 100%;
-    max-width: 900px;
-    background-color: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(28, 27, 34, 0.4);
-    border-radius: 18px;
-    padding: 25px;
-    transition: 0.3s;
+.img{
+    width: 300px;
+    border-radius: 50px;
+    display: block;
+    left: 50px;
+    position: absolute;
+    margin-top: 30px;
 }
 
-.cards-aplicacao:hover {
+
+.aplicacao-item{
+    width: 200px;
+    min-height: 280px;
+    background-color: rgba(255,255,255,0.08);
+    border: 1px solid rgba(28,27,34,0.4);
+    border-radius: 18px;
+    padding: 25px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aplicacao-item:hover {
     transform: translateY(-8px);
     border-color: var(--color-light);
     box-shadow: 0 0 20px rgba(134, 121, 121, 0.25);
 }
 
+
+.container-aplicacao-ex {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.08); 
+    border: 1px solid rgba(28, 27, 34, 0.4); 
+    border-radius: 18px;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .topo{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5px;
 
 }
 
