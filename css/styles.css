@@ -129,7 +129,7 @@ a:hover {
 .header-problema p {
     font-size: 20px;
     line-height: 1.7;
-    text-align: center;
+    text-align: justify;
 }
 
 .container-cards {
@@ -165,6 +165,7 @@ a:hover {
     max-width: 1100px;
     width: 100%;
 }
+
 
 .tecnologia{
     background-image: linear-gradient( rgba(23, 22, 22, 0.8),rgba(34, 33, 33, 0.4)),
@@ -367,7 +368,7 @@ a:hover {
 }
 
 .publico-item h3{
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 15px;
     color: var(--color-light);
 }
@@ -380,7 +381,7 @@ a:hover {
 
 .beneficios{
     padding: 100px 8%;
-    height: 100vh;
+    height: 110vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
     url(../img/img-beneficios.jpg);
     background-repeat: no-repeat;
@@ -440,7 +441,7 @@ a:hover {
 
 .aplicacao{
     padding: 100px 8%;
-    height: 100vh;
+    height: 110vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
     url(../img/img-2.7.png);
     background-repeat: no-repeat;
